@@ -1,4 +1,4 @@
-# sivcrypt-pro
+# sivcrypt-pro  🦀
 A fast, chunked, **AES‑256‑GCM‑SIV** file encryption CLI with robust operations: file locking, symlink refusal, metadata preservation, progress reporting, and **atomic output replace**. It supports **Argon2id passphrase** derivation **or** 32‑byte **key files**, uses a safer chunk layout that binds every chunk to its position (prevents cut‑and‑paste reordering), and decrypts legacy **v2** files while writing safer **v3**.
 
 > **Why this tool?**  
